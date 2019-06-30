@@ -1,0 +1,79 @@
+/* 
+	Font Icon 
+	------------------------------------------------
+*/
+
+@font-face {
+  font-family: 'fcicon';
+  src:  url('../fonts/fcicon.eot?6buvno');
+  src:  url('../fonts/fcicon.eot?6buvno#iefix') format('embedded-opentype'),
+    url('../fonts/fcicon.ttf?6buvno') format('truetype'),
+    url('../fonts/fcicon.woff?6buvno') format('woff'),
+    url('../fonts/fcicon.svg?6buvno#fcicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="fc-"], [class*=" fc-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'fcicon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fc-stopwatch:before {
+  content: "\e900";
+}
+.fc-location:before {
+  content: "\e901";
+}
+.fc-logo:before {
+  content: "\e902";
+}
+.fc-heart:before {
+  content: "\e903";
+}
+.fc-group:before {
+  content: "\e904";
+}
+.fc-envelope:before {
+  content: "\e905";
+}
+.fc-burger:before {
+  content: "\e906";
+}
+.fc-home:before {
+  content: "\e907";
+}
+.fc-phone:before {
+  content: "\e942";
+}
+.fc-clock:before {
+  content: "\e94e";
+}
+.fc-checkmark:before {
+  content: "\ea10";
+}
+.fc-facebook:before {
+  content: "\ea90";
+}
+.fc-instagram:before {
+  content: "\ea92";
+}
+.fc-twitter:before {
+  content: "\ea96";
+}
+.fc-youtube:before {
+  content: "\ea9d";
+}
+.fc-linkedin:before {
+  content: "\eaca";
+}
