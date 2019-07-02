@@ -121,7 +121,7 @@ section {
   .section-2 { background: #fff;
     //Parallax.js Fix
     .section-container {
-      background: url(../img/background/background-3.png) no-repeat; 
+      background: url(../img/background/background-3.jpg) no-repeat; 
       background-size: cover; 
     }
     .section-2-content { opacity: 0; @include animate( opacity, 480ms );
@@ -144,7 +144,7 @@ section {
   .section-4 { background: #fff; 
     //Parallax.js Fix
     .section-container {
-      background: url(../img/background/background-gym.png) no-repeat; 
+      background: url(../img/background/background-gym.jpg) no-repeat; 
       background-size: cover; 
     }
     .section-4-content { text-align: right; opacity: 0; @include animate( opacity, 480ms );
@@ -216,7 +216,7 @@ section {
 //SERVICES 
 .fc-container-services {
   .section-1 {
-    background: url(../img/background/services-bg.jpeg) no-repeat center; 
+    background: url(../img/background/services-bg.jpg) no-repeat center; 
     background-size: cover; 
   }
   .section-2 {
@@ -282,7 +282,7 @@ section {
 //CONTACT
 .fc-container-contact {
   .section-1 {
-    background: url(../img/background/contact-bg.jpeg) no-repeat center; 
+    background: url(../img/background/contact-bg.jpg) no-repeat center; 
     background-size: cover; 
   }
   .section-2 {
