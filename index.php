@@ -26,7 +26,7 @@
 
   </section><!-- .section-2 -->
 
-  <section class="section-3" data-parallax="scroll" data-image-src="img/background/weightlifting.jpeg" data-bleed="50" data-speed="0.8" overScrollFix="true">
+  <section class="section-3" data-parallax="scroll" data-image-src="img/background/weightlifting.jpg" data-bleed="50" data-speed="0.8" overScrollFix="true">
     
     <div class="bg-overlay"></div>
 
