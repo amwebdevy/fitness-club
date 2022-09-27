@@ -1,0 +1,26 @@
+/*
+	Parallax (react-parallax)
+	------------------------------------------------
+*/
+
+.para1,
+.para2 {
+  margin: -1px;
+}
+
+.para1 {
+  top: -10vw;
+}
+
+.para2 {
+  top: 0vw;
+}
+
+@media (min-width: 1050px) {
+  .para1 {
+    top: -16.5vw;
+  }
+  .para2 {
+    top: -20.5vw;
+  }
+}

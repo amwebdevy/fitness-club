@@ -1,0 +1,5 @@
+@media only screen and (min-width: 901px) {
+  .bg:before {
+    background-image: var(--bg2URL);
+  }
+}

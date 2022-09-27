@@ -1,0 +1,8 @@
+.content {
+  z-index: 1;
+  color: #ffffff;
+}
+
+.content a {
+  font-weight: bold;
+}

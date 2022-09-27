@@ -1,0 +1,43 @@
+{
+	"name": "fitness-club",
+	"version": "1.0.0",
+	"description": "Static version of personal project for web portfolio using Gatsby",
+	"scripts": {
+		"build": "gatsby build",
+		"develop": "gatsby develop",
+		"format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+		"start": "gatsby develop",
+		"serve": "gatsby serve",
+		"clean": "gatsby clean",
+		"test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/amwebdevy/fitness-club.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/amwebdevy/fitness-club/issues"
+	},
+	"homepage": "https://github.com/amwebdevy/fitness-club#readme",
+	"devDependencies": {
+		"prettier": "^2.7.1"
+	},
+	"dependencies": {
+		"gatsby": "^4.23.0",
+		"gatsby-omni-font-loader": "^2.0.2",
+		"gatsby-plugin-image": "^2.23.0",
+		"gatsby-plugin-sass": "^5.23.0",
+		"gatsby-plugin-sharp": "^4.23.0",
+		"gatsby-source-filesystem": "^4.23.0",
+		"gatsby-transformer-sharp": "^4.23.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-helmet": "^6.1.0",
+		"react-parallax": "^3.5.1",
+		"react-waypoint": "^10.3.0",
+		"sass": "^1.54.9"
+	}
+}
