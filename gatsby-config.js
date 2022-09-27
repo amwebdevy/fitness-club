@@ -46,4 +46,5 @@ module.exports = {
     title: "Fitness Club",
     description: "Fitness/Gym Website Portfolio Example",
   },
+  trailingSlash: "never",
 };
