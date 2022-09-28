@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "gatsby";
+import { graphql, Link, useStaticQuery } from "gatsby";
 import { Helmet } from "react-helmet";
 import { getPageName } from "../helpers/getPageName";
 import useWindowSize from "../hooks/useWindowSize";
@@ -9,6 +9,18 @@ const Navbar = ({ location }) => {
   const { windowSize } = useWindowSize(isBrowser() && window);
   const [toggled, setToggled] = useState(false);
   let path = location.pathname;
+
+  const data = useStaticQuery(graphql`
+    query SiteInfo {
+      site {
+        siteMetadata {
+          title
+          description
+        }
+      }
+    }
+  `);
+  const { title, description } = data.site.siteMetadata;
 
   useEffect(() => {
     const navList = document.querySelectorAll(".fc-nav ul li");
@@ -39,6 +51,13 @@ const Navbar = ({ location }) => {
         bodyAttributes={{
           style: toggled ? "overflow: hidden" : "overflow: unset",
         }}
+        title={title}
+        meta={[
+          {
+            name: "description",
+            content: description,
+          },
+        ]}
       />
       <header className="fc-header">
         <div className="fc-header-wrapper">
